@@ -1,0 +1,6 @@
+C:\Users\pussydestroyer\source\repos\BlackJackServer\BlackJackClient\obj\Debug\net8.0\BlackJackClient.csproj.AssemblyReference.cache
+C:\Users\pussydestroyer\source\repos\BlackJackServer\BlackJackClient\obj\Debug\net8.0\BlackJackClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pussydestroyer\source\repos\BlackJackServer\BlackJackClient\obj\Debug\net8.0\BlackJackClient.AssemblyInfoInputs.cache
+C:\Users\pussydestroyer\source\repos\BlackJackServer\BlackJackClient\obj\Debug\net8.0\BlackJackClient.AssemblyInfo.cs
+C:\Users\pussydestroyer\source\repos\BlackJackServer\BlackJackClient\obj\Debug\net8.0\BlackJackClient.csproj.CoreCompileInputs.cache
+C:\Users\pussydestroyer\source\repos\BlackJackServer\BlackJackClient\obj\Debug\net8.0\BlackJackClient.MvcApplicationPartsAssemblyInfo.cache

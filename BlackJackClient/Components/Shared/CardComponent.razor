@@ -1,0 +1,10 @@
+﻿@using BlackJackClient.Models
+<div class="card">
+    <img src="@Card.ImageUrl" alt="@Card.Value of @Card.Suit" />
+    <div>@Card.Value of @Card.Suit</div>
+</div>
+
+@code {
+    [Parameter]
+    public Card Card { get; set; }
+}

@@ -1,0 +1,48 @@
+﻿@using BlackJackClient.Models
+@if (GameState != null)
+{
+    <div>
+        @foreach (var player in GameState.Players)
+        {
+            <div>
+                <h3>@player.Name</h3>
+                <p>Score: @player.Score</p>
+                <div class="cards">
+                    @foreach (var card in player.Cards)
+                    {
+                        <CardComponent Card="card" />
+                    }
+                </div>
+            </div>
+        }
+
+        @if (!GameState.IsGameOver && GameState.CurrentPlayer == PlayerName)
+        {
+            <button @onclick="() => MakeMove('Hit')">Hit</button>
+            <button @onclick="() => MakeMove('Stand')">Stand</button>
+
+
+        }
+
+    </div>
+}
+else
+{
+    <p>Waiting for game state...</p>
+}
+
+@code {
+    [Parameter]
+    public GameState GameState { get; set; }
+
+    [Parameter]
+    public string PlayerName { get; set; }
+
+    [Parameter]
+    public EventCallback<string> OnPlayerMove { get; set; }
+
+    private async Task MakeMove(string action)
+    {
+        await OnPlayerMove.InvokeAsync(action);
+    }
+}

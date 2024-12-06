@@ -1,0 +1,36 @@
+﻿@using BlackJackClient.Models
+@using BlackJackClient.Services
+<h3>Game: @GameId</h3>
+
+<GameBoard GameState="GameState" PlayerName="PlayerName" 
+           OnPlayerMove="MakeMove" />
+
+@code {
+    [Parameter]
+    public string GameId { get; set; }
+
+    [Parameter]
+    public string PlayerName { get; set; }
+
+    private GameState GameState;
+
+    [Inject]
+    private GameClient GameClient { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        GameClient.OnGameStateUpdated += (state) => InvokeAsync(() =>
+        {
+            GameState = state;
+            StateHasChanged();
+        });
+
+        await GameClient.ConnectAsync();
+        await GameClient.JoinGame(GameId, PlayerName);
+    }
+
+    private async Task MakeMove(string action)
+    {
+        await GameClient.MakeMove(GameId, PlayerName, action);
+    }
+}

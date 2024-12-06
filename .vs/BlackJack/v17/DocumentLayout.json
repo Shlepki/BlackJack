@@ -1,0 +1,385 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\blackjackserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\blackjackserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\components\\gameboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\components\\gameboard.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\services\\gameclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\services\\gameclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\pages\\joingame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\pages\\joingame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\pages\\playgame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\pages\\playgame.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\components\\shared\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\components\\shared\\cardcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\models\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\models\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B11BCD3A-FEDB-4BBE-8C55-6C08A6AFA40E}|BlackJackClient\\BlackJackClient.csproj|solutionrelative:blackjackclient\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\hubs\\gamehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\services\\blackjackgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\services\\blackjackgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\models\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\models\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\models\\gamestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\models\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\models\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\models\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|c:\\users\\pussydestroyer\\source\\repos\\blackjackserver\\blackjackserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD48914-2278-4A43-9545-50FC1C7E0FDE}|BlackJackServer\\BlackJackServer.csproj|solutionrelative:blackjackserver\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 362,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlackJackServer",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\BlackJackServer.csproj",
+              "RelativeDocumentMoniker": "BlackJackServer\\BlackJackServer.csproj",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\BlackJackServer.csproj",
+              "RelativeToolTip": "BlackJackServer\\BlackJackServer.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-06T19:59:09.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Program.cs",
+              "RelativeDocumentMoniker": "BlackJackClient\\Program.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Program.cs",
+              "RelativeToolTip": "BlackJackClient\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:49:09.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayGame.razor",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Pages\\PlayGame.razor",
+              "RelativeDocumentMoniker": "BlackJackClient\\Pages\\PlayGame.razor",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Pages\\PlayGame.razor",
+              "RelativeToolTip": "BlackJackClient\\Pages\\PlayGame.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:48:43.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "JoinGame.razor",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Pages\\JoinGame.razor",
+              "RelativeDocumentMoniker": "BlackJackClient\\Pages\\JoinGame.razor",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Pages\\JoinGame.razor",
+              "RelativeToolTip": "BlackJackClient\\Pages\\JoinGame.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:48:05.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlackJackClient\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Pages\\Index.razor",
+              "RelativeToolTip": "BlackJackClient\\Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:47:46.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CardComponent.razor",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Components\\Shared\\CardComponent.razor",
+              "RelativeDocumentMoniker": "BlackJackClient\\Components\\Shared\\CardComponent.razor",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Components\\Shared\\CardComponent.razor",
+              "RelativeToolTip": "BlackJackClient\\Components\\Shared\\CardComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:46:19.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameBoard.razor",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Components\\GameBoard.razor",
+              "RelativeDocumentMoniker": "BlackJackClient\\Components\\GameBoard.razor",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Components\\GameBoard.razor",
+              "RelativeToolTip": "BlackJackClient\\Components\\GameBoard.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:45:52.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameClient.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Services\\GameClient.cs",
+              "RelativeDocumentMoniker": "BlackJackClient\\Services\\GameClient.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Services\\GameClient.cs",
+              "RelativeToolTip": "BlackJackClient\\Services\\GameClient.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:43:29.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\App.razor",
+              "RelativeDocumentMoniker": "BlackJackClient\\App.razor",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\App.razor",
+              "RelativeToolTip": "BlackJackClient\\App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-06T19:41:59.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Models\\PlayerState.cs",
+              "RelativeDocumentMoniker": "BlackJackClient\\Models\\PlayerState.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Models\\PlayerState.cs",
+              "RelativeToolTip": "BlackJackClient\\Models\\PlayerState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:41:34.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Models\\GameState.cs",
+              "RelativeDocumentMoniker": "BlackJackClient\\Models\\GameState.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Models\\GameState.cs",
+              "RelativeToolTip": "BlackJackClient\\Models\\GameState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:41:21.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "BlackJackClient\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackClient\\Models\\Card.cs",
+              "RelativeToolTip": "BlackJackClient\\Models\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:41:10.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Program.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Program.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Program.cs",
+              "RelativeToolTip": "BlackJackServer\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:19:30.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameHub.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Hubs\\GameHub.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Hubs\\GameHub.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Hubs\\GameHub.cs",
+              "RelativeToolTip": "BlackJackServer\\Hubs\\GameHub.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:32:46.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlackJackGame.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Services\\BlackJackGame.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Services\\BlackJackGame.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Services\\BlackJackGame.cs",
+              "RelativeToolTip": "BlackJackServer\\Services\\BlackJackGame.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwCIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:29:31.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PlayerState.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\PlayerState.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Models\\PlayerState.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\PlayerState.cs",
+              "RelativeToolTip": "BlackJackServer\\Models\\PlayerState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:27:59.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameState.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\GameState.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Models\\GameState.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\GameState.cs",
+              "RelativeToolTip": "BlackJackServer\\Models\\GameState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:27:21.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\Player.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Models\\Player.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\Player.cs",
+              "RelativeToolTip": "BlackJackServer\\Models\\Player.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:21:49.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\Deck.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Models\\Deck.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\Deck.cs",
+              "RelativeToolTip": "BlackJackServer\\Models\\Deck.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwDUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:20:37.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\Card.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Models\\Card.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Models\\Card.cs",
+              "RelativeToolTip": "BlackJackServer\\Models\\Card.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:20:04.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "BlackJackServer\\Controllers\\GameController.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\source\\repos\\BlackJackServer\\BlackJackServer\\Controllers\\GameController.cs",
+              "RelativeToolTip": "BlackJackServer\\Controllers\\GameController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T19:19:15.348Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

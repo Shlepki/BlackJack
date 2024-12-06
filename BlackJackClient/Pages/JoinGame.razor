@@ -1,0 +1,23 @@
+﻿@using BlackJackClient.Services
+<h3>Join Game</h3>
+
+<input @bind="GameId" placeholder="Game ID" />
+<input @bind="PlayerName" placeholder="Your Name" />
+<button @onclick="HandleJoinGame">Join</button>
+
+@code {
+    private string GameId;
+    private string PlayerName;
+
+    [Inject]
+    private NavigationManager NavigationManager { get; set; }
+
+    [Inject]
+    private GameClient GameClient { get; set; }
+
+    private async Task HandleJoinGame()
+    {
+        await GameClient.JoinGame(GameId, PlayerName);
+        NavigationManager.NavigateTo($"/play-game/{GameId}/{PlayerName}");
+    }
+}
