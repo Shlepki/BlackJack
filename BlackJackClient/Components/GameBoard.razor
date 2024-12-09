@@ -1,8 +1,8 @@
 ﻿@using BlackJackClient.Models
-@if (GameState != null)
+@if (gameState != null)
 {
     <div>
-        @foreach (var player in GameState.Players)
+        @foreach (var player in gameState.Players)
         {
             <div>
                 <h3>@player.Name</h3>
@@ -16,12 +16,14 @@
             </div>
         }
 
-        @if (!GameState.IsGameOver && GameState.CurrentPlayer == PlayerName)
+        @if (!gameState.IsGameOver && gameState.CurrentPlayer == playerName)
         {
-            <button @onclick="() => MakeMove('Hit')">Hit</button>
-            <button @onclick="() => MakeMove('Stand')">Stand</button>
-
-
+            <button @onclick="() => MakeMove(hit)">Hit</button>
+            <button @onclick="() => MakeMove(stand)">Stand</button>
+        }
+        @if (gameState.IsGameOver)
+        {
+            <button @onclick="()=> RestartGame()">Restart</button>
         }
 
     </div>
@@ -33,16 +35,19 @@ else
 
 @code {
     [Parameter]
-    public GameState GameState { get; set; }
+    public GameState gameState { get; set; }
 
     [Parameter]
-    public string PlayerName { get; set; }
+    public string playerName { get; set; }
 
     [Parameter]
-    public EventCallback<string> OnPlayerMove { get; set; }
+    public EventCallback<string> onPlayerMove { get; set; }
+
+    string hit = new string("Hit");
+    string stand = new("Stand");
 
     private async Task MakeMove(string action)
     {
-        await OnPlayerMove.InvokeAsync(action);
+        await onPlayerMove.InvokeAsync(action);
     }
 }

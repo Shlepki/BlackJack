@@ -7,7 +7,7 @@ namespace BlackJackClient.Services
 {
     public class GameClient
     {
-        private readonly HubConnection _hubConnection;
+        public HubConnection _hubConnection;
 
         public event Action<GameState> OnGameStateUpdated;
         public GameState CurrentGameState { get; private set; }
@@ -15,7 +15,7 @@ namespace BlackJackClient.Services
         public GameClient(string hubUrl)
         {
             _hubConnection = new HubConnectionBuilder()
-                .WithUrl(hubUrl) // Убедитесь, что этот метод доступен
+                .WithUrl(hubUrl) 
                 .Build();
 
             _hubConnection.On<GameState>("UpdateGameState", (gameState) =>
@@ -25,10 +25,27 @@ namespace BlackJackClient.Services
             });
         }
 
+        private async Task EnsureConnectedAsync()
+        {
+            if (_hubConnection.State == HubConnectionState.Disconnected)
+            {
+                try
+                {
+                    await _hubConnection.StartAsync();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error starting SignalR connection: {ex.Message}");
+                    throw;
+                }
+            }
+        }
+
         public async Task ConnectAsync() => await _hubConnection.StartAsync();
 
         public async Task JoinGame(string gameId, string playerName)
         {
+            await EnsureConnectedAsync(); 
             await _hubConnection.SendAsync("JoinGame", gameId, playerName);
         }
 

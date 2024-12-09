@@ -1,18 +1,21 @@
-﻿@using BlackJackClient.Models
+﻿@using Microsoft.AspNetCore.SignalR.Client;
+@using BlackJackClient.Components
 @using BlackJackClient.Services
+@using BlackJackClient.Models
+@page "/play-game/{GameId}/{PlayerName}"
 <h3>Game: @GameId</h3>
 
-<GameBoard GameState="GameState" PlayerName="PlayerName" 
-           OnPlayerMove="MakeMove" />
+<GameBoard gameState="gameState" playerName="playerName" 
+           onPlayerMove="MakeMove" />
 
 @code {
     [Parameter]
     public string GameId { get; set; }
 
     [Parameter]
-    public string PlayerName { get; set; }
+    public string playerName { get; set; }
 
-    private GameState GameState;
+    private GameState gameState;
 
     [Inject]
     private GameClient GameClient { get; set; }
@@ -21,16 +24,15 @@
     {
         GameClient.OnGameStateUpdated += (state) => InvokeAsync(() =>
         {
-            GameState = state;
+            gameState = state;
             StateHasChanged();
         });
-
-        await GameClient.ConnectAsync();
-        await GameClient.JoinGame(GameId, PlayerName);
+        if (GameClient._hubConnection.State == HubConnectionState.Disconnected) await GameClient.ConnectAsync();
+        await GameClient.JoinGame(GameId, playerName);
     }
 
     private async Task MakeMove(string action)
     {
-        await GameClient.MakeMove(GameId, PlayerName, action);
+        await GameClient.MakeMove(GameId, playerName, action);
     }
 }
